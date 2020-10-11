@@ -1,6 +1,5 @@
 #!/bin/bash
 import socket
-import sys
 
 # Part 5 of proof of concept by Vry4n
 # This script is intended full the buffer, modify EIP value and then send the list of bad chars to identify each, and remove it. I identified \x00\x0a\x0d as bad chars
