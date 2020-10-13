@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python
 import socket
 
 # Part 3 of proof of concept by Vry4n
